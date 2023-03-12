@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+  
+}
+.header{
+    color: rgb(109, 109, 105);
+    font-weight: 800;
+    font-size: 60px;
+}
+.field{
+    width: 300px;
+    height: 25px;
+    border: solid 4px black;
+    border-radius: 10%;
+}
+.addButton{
+    width: 70px;
+    height: 30px;
+    border: none;
+    background-color: rgb(92, 92, 239);
+    border-radius: 15px;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 300;
+}
+.todo{
+    font-size: 30px;
+    background-color: rgb(193, 189, 185);
+    margin-top: 30px;
+    margin-left: 750px;
+    width: 500px;
+    border-radius: 15px;
+  }
+  .todoItem{
+    background-color: rgb(149, 146, 152);
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 1px;
+    margin-bottom: 10px;
+  
+  }
+  .checkBox{
+    width: 25px;
+    height: 25px;
+  }
+  
+   .todoItem .deleteButton{
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: rgb(92, 92, 239);
+    border-radius: 15px;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 300;
+   
+  }
+  .todo div{
+    display:inline-flexbox;
+  }
